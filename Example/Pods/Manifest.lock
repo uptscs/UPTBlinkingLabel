@@ -1,0 +1,14 @@
+PODS:
+  - UPTBlinkingLabel (0.1.0)
+
+DEPENDENCIES:
+  - UPTBlinkingLabel (from `../`)
+
+EXTERNAL SOURCES:
+  UPTBlinkingLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UPTBlinkingLabel: 368c4c3f503865eea09dd5209f0709bc3285a6b0
+
+COCOAPODS: 0.39.0

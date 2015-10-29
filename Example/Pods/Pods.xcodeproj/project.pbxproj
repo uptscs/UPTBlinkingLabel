@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378F60A6DC0FE837535EA58CFE1F3A85 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2371392C82C2F7E9C59E901DB52788C /* ReplaceMe.swift */; };
+		398569B5E620DAB6766EA599848E1AFC /* UPTBlinkingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF111F1F9E5E7B67104DC6443DCD7A5 /* UPTBlinkingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61B0B1624720DFD6B86D632FE87E012F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6AE6CD58A299D328B40D86D32ED50742 /* Pods-UPTBlinkingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A51FF0DF92ECED04A4F9D72733CE06 /* Pods-UPTBlinkingLabel_Example-dummy.m */; };
+		6CCA2DBD3A3871057995E8F62E1652E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7A4A4E9FFA7AE29312C74251CE78C8F3 /* Pods-UPTBlinkingLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88632C3E9DF51D082257454A0D5203B1 /* Pods-UPTBlinkingLabel_Tests-dummy.m */; };
+		7F7A12684B172B88197D603ECF1E7AF5 /* Pods-UPTBlinkingLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8DF68A6DF97FEDEDFB013CCDAD89B7 /* Pods-UPTBlinkingLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		935D58494B30ACE836E78CD8A55F7BCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C3960B7E418D321609F895172445D018 /* UPTBlinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2746DDBD53E17E9D37D776CBFECC51E1 /* UPTBlinkingLabel-dummy.m */; };
+		D53DAFB455E3415FD7D334DA7C8DB73B /* Pods-UPTBlinkingLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46765CDD122E83DBC555EA68893C138D /* Pods-UPTBlinkingLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEFD49BFF435F8921CCE83B17BA77E2E /* UPTBlinkingLabel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E3C18FFE183CD2FC5C49CE48B07737F /* UPTBlinkingLabel.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FC01FF2E10BCA6AD2AB7D49599C9B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20683DA22222E39F6624091CAE845B35;
+			remoteInfo = "UPTBlinkingLabel-UPTBlinkingLabel";
+		};
+		825B82A6DC92755365687EC0D344BDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99B69B283CE055EE33885911A00B95D;
+			remoteInfo = UPTBlinkingLabel;
+		};
+		B27DC7E73354A33F818F5D93531110DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99B69B283CE055EE33885911A00B95D;
+			remoteInfo = UPTBlinkingLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07EEBE5D53F85921464573F6FED1A788 /* UPTBlinkingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UPTBlinkingLabel.modulemap; sourceTree = "<group>"; };
+		0C1DCF1E3DE0CFD07B24411AD326799D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14164F3BF8E58D80D011832F23789861 /* Pods-UPTBlinkingLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UPTBlinkingLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		17FBAD5BBA9EEA6A75E3E1A18926536F /* Pods-UPTBlinkingLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UPTBlinkingLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1C779237E866F3A98BA3011202CC190A /* Pods-UPTBlinkingLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UPTBlinkingLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		2746DDBD53E17E9D37D776CBFECC51E1 /* UPTBlinkingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPTBlinkingLabel-dummy.m"; sourceTree = "<group>"; };
+		2C88C12D075AEF41DE525AA477DD1285 /* Pods_UPTBlinkingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPTBlinkingLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		371C3DB93DA00080B55A20FD78431037 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAD627FBD1272A48841C335D2C6D461 /* UPTBlinkingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UPTBlinkingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4022697C10D84648F34E791877BA9DF1 /* Pods-UPTBlinkingLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UPTBlinkingLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46765CDD122E83DBC555EA68893C138D /* Pods-UPTBlinkingLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UPTBlinkingLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		4DFA200B1A50D907B663427097EA6B16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF111F1F9E5E7B67104DC6443DCD7A5 /* UPTBlinkingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPTBlinkingLabel-umbrella.h"; sourceTree = "<group>"; };
+		5E3C18FFE183CD2FC5C49CE48B07737F /* UPTBlinkingLabel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPTBlinkingLabel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5967956320D09522FC61FA0DB8B91E /* Pods-UPTBlinkingLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UPTBlinkingLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		64B8F1FAB6B38EA78F923EAC1E2ECC35 /* Pods-UPTBlinkingLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPTBlinkingLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		64F68D51639020BE7017E261E4A03DB5 /* Pods-UPTBlinkingLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPTBlinkingLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		65A51FF0DF92ECED04A4F9D72733CE06 /* Pods-UPTBlinkingLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPTBlinkingLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		7738706E1053985A16317178C25DFC0A /* Pods-UPTBlinkingLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UPTBlinkingLabel_Example.modulemap"; sourceTree = "<group>"; };
+		86B55BA1EA01D6F861E27CFD42FFE326 /* Pods-UPTBlinkingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPTBlinkingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		88632C3E9DF51D082257454A0D5203B1 /* Pods-UPTBlinkingLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPTBlinkingLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		978BD809114395A651C7B0F3FF76AB4B /* Pods-UPTBlinkingLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UPTBlinkingLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		9FE2AC80CC32737778B9D17F43B19F15 /* Pods-UPTBlinkingLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPTBlinkingLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1156D40D65A2E7C5427D63795E2EFD5 /* Pods-UPTBlinkingLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UPTBlinkingLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B44ADE0B232C5E41D5AC733A479D2425 /* Pods-UPTBlinkingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPTBlinkingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B99BCE4BA974E7A7894DDA1E9CBBE76E /* Pods-UPTBlinkingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPTBlinkingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB8DF68A6DF97FEDEDFB013CCDAD89B7 /* Pods-UPTBlinkingLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UPTBlinkingLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C2371392C82C2F7E9C59E901DB52788C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		E0E0628857E329401439B02405A20C46 /* UPTBlinkingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPTBlinkingLabel-prefix.pch"; sourceTree = "<group>"; };
+		E0F85736D101F8511E7F8E907579C3F0 /* UPTBlinkingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPTBlinkingLabel.xcconfig; sourceTree = "<group>"; };
+		EADECA1FC4DCAE02BCB5E6527703CF3D /* Pods_UPTBlinkingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPTBlinkingLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FD373E596DF540467D1A7A9E1621A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCA2DBD3A3871057995E8F62E1652E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24ADD19497BE447487FD67AF99D7698C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B0B1624720DFD6B86D632FE87E012F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43381779CDEF4A0865ACFAABED5C431A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935D58494B30ACE836E78CD8A55F7BCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E027BA788873471C64CC8392DA260E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D85DCE5978689674B6C1FFA27CA382B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9ED3B861E76E24C15E0F50A69BC6631 /* UPTBlinkingLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5375AB6FB582EE768B2CD68C65DA3359 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E752DD08CBD738EEAB2F2ABA13BB0B8A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		79CAEFF059D2F6428F6F2D7162600FF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADECA1FC4DCAE02BCB5E6527703CF3D /* Pods_UPTBlinkingLabel_Example.framework */,
+				2C88C12D075AEF41DE525AA477DD1285 /* Pods_UPTBlinkingLabel_Tests.framework */,
+				5E3C18FFE183CD2FC5C49CE48B07737F /* UPTBlinkingLabel.bundle */,
+				3DAD627FBD1272A48841C335D2C6D461 /* UPTBlinkingLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				0D85DCE5978689674B6C1FFA27CA382B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				79CAEFF059D2F6428F6F2D7162600FF2 /* Products */,
+				F5627D1B9384D4B2D4F7878B6A082E03 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C20F4E745A99385CB2CE9ABF2896B156 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DFA200B1A50D907B663427097EA6B16 /* Info.plist */,
+				07EEBE5D53F85921464573F6FED1A788 /* UPTBlinkingLabel.modulemap */,
+				E0F85736D101F8511E7F8E907579C3F0 /* UPTBlinkingLabel.xcconfig */,
+				2746DDBD53E17E9D37D776CBFECC51E1 /* UPTBlinkingLabel-dummy.m */,
+				E0E0628857E329401439B02405A20C46 /* UPTBlinkingLabel-prefix.pch */,
+				4EF111F1F9E5E7B67104DC6443DCD7A5 /* UPTBlinkingLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UPTBlinkingLabel";
+			sourceTree = "<group>";
+		};
+		D5D1E1D9FDC04D782E54D108329D6B4C /* Pods-UPTBlinkingLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				371C3DB93DA00080B55A20FD78431037 /* Info.plist */,
+				1C779237E866F3A98BA3011202CC190A /* Pods-UPTBlinkingLabel_Tests.modulemap */,
+				B1156D40D65A2E7C5427D63795E2EFD5 /* Pods-UPTBlinkingLabel_Tests-acknowledgements.markdown */,
+				64F68D51639020BE7017E261E4A03DB5 /* Pods-UPTBlinkingLabel_Tests-acknowledgements.plist */,
+				88632C3E9DF51D082257454A0D5203B1 /* Pods-UPTBlinkingLabel_Tests-dummy.m */,
+				17FBAD5BBA9EEA6A75E3E1A18926536F /* Pods-UPTBlinkingLabel_Tests-frameworks.sh */,
+				14164F3BF8E58D80D011832F23789861 /* Pods-UPTBlinkingLabel_Tests-resources.sh */,
+				BB8DF68A6DF97FEDEDFB013CCDAD89B7 /* Pods-UPTBlinkingLabel_Tests-umbrella.h */,
+				9FE2AC80CC32737778B9D17F43B19F15 /* Pods-UPTBlinkingLabel_Tests.debug.xcconfig */,
+				86B55BA1EA01D6F861E27CFD42FFE326 /* Pods-UPTBlinkingLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-UPTBlinkingLabel_Tests";
+			path = "Target Support Files/Pods-UPTBlinkingLabel_Tests";
+			sourceTree = "<group>";
+		};
+		E752DD08CBD738EEAB2F2ABA13BB0B8A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C2371392C82C2F7E9C59E901DB52788C /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EEAF42B91D60FF513797FEA7F4060D38 /* Pods-UPTBlinkingLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0C1DCF1E3DE0CFD07B24411AD326799D /* Info.plist */,
+				7738706E1053985A16317178C25DFC0A /* Pods-UPTBlinkingLabel_Example.modulemap */,
+				4022697C10D84648F34E791877BA9DF1 /* Pods-UPTBlinkingLabel_Example-acknowledgements.markdown */,
+				64B8F1FAB6B38EA78F923EAC1E2ECC35 /* Pods-UPTBlinkingLabel_Example-acknowledgements.plist */,
+				65A51FF0DF92ECED04A4F9D72733CE06 /* Pods-UPTBlinkingLabel_Example-dummy.m */,
+				5E5967956320D09522FC61FA0DB8B91E /* Pods-UPTBlinkingLabel_Example-frameworks.sh */,
+				978BD809114395A651C7B0F3FF76AB4B /* Pods-UPTBlinkingLabel_Example-resources.sh */,
+				46765CDD122E83DBC555EA68893C138D /* Pods-UPTBlinkingLabel_Example-umbrella.h */,
+				B99BCE4BA974E7A7894DDA1E9CBBE76E /* Pods-UPTBlinkingLabel_Example.debug.xcconfig */,
+				B44ADE0B232C5E41D5AC733A479D2425 /* Pods-UPTBlinkingLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-UPTBlinkingLabel_Example";
+			path = "Target Support Files/Pods-UPTBlinkingLabel_Example";
+			sourceTree = "<group>";
+		};
+		F5627D1B9384D4B2D4F7878B6A082E03 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEAF42B91D60FF513797FEA7F4060D38 /* Pods-UPTBlinkingLabel_Example */,
+				D5D1E1D9FDC04D782E54D108329D6B4C /* Pods-UPTBlinkingLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F9ED3B861E76E24C15E0F50A69BC6631 /* UPTBlinkingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5375AB6FB582EE768B2CD68C65DA3359 /* Pod */,
+				C20F4E745A99385CB2CE9ABF2896B156 /* Support Files */,
+			);
+			name = UPTBlinkingLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		65B49DB21E43CF35D70246F8C0C7EFAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53DAFB455E3415FD7D334DA7C8DB73B /* Pods-UPTBlinkingLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C9055D546C6B2A30F61FCAFEEA439F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398569B5E620DAB6766EA599848E1AFC /* UPTBlinkingLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D197E15825EA4225B49120247B63F1AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7A12684B172B88197D603ECF1E7AF5 /* Pods-UPTBlinkingLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20683DA22222E39F6624091CAE845B35 /* UPTBlinkingLabel-UPTBlinkingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496FDCE1F8E3F992CABFCB2F6DB07F22 /* Build configuration list for PBXNativeTarget "UPTBlinkingLabel-UPTBlinkingLabel" */;
+			buildPhases = (
+				2764193BF6EC55AEAD380B2C11AFE5A2 /* Sources */,
+				9E027BA788873471C64CC8392DA260E4 /* Frameworks */,
+				875D161BC2F691BEF7FFD3F815E63531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UPTBlinkingLabel-UPTBlinkingLabel";
+			productName = "UPTBlinkingLabel-UPTBlinkingLabel";
+			productReference = 5E3C18FFE183CD2FC5C49CE48B07737F /* UPTBlinkingLabel.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3D5CDEB9404F976DE8074F365F8C3E88 /* Pods-UPTBlinkingLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83DCB7DA31DC4951C9F01700B9AD166 /* Build configuration list for PBXNativeTarget "Pods-UPTBlinkingLabel_Example" */;
+			buildPhases = (
+				09DEFDB99956DDA48A96EB80A24FF250 /* Sources */,
+				1FD373E596DF540467D1A7A9E1621A49 /* Frameworks */,
+				65B49DB21E43CF35D70246F8C0C7EFAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EB976DB51FA0A8F8B05A032A61DE750 /* PBXTargetDependency */,
+			);
+			name = "Pods-UPTBlinkingLabel_Example";
+			productName = "Pods-UPTBlinkingLabel_Example";
+			productReference = EADECA1FC4DCAE02BCB5E6527703CF3D /* Pods_UPTBlinkingLabel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EB30154E0A996023C3994D0958B0795 /* Pods-UPTBlinkingLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11E562955225F0F5F81767A8D845F58 /* Build configuration list for PBXNativeTarget "Pods-UPTBlinkingLabel_Tests" */;
+			buildPhases = (
+				377D43F62C71E4044F9759C98FF24B74 /* Sources */,
+				43381779CDEF4A0865ACFAABED5C431A /* Frameworks */,
+				D197E15825EA4225B49120247B63F1AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A41D83979BEEC22DDFF1BA9C54BE20 /* PBXTargetDependency */,
+			);
+			name = "Pods-UPTBlinkingLabel_Tests";
+			productName = "Pods-UPTBlinkingLabel_Tests";
+			productReference = 2C88C12D075AEF41DE525AA477DD1285 /* Pods_UPTBlinkingLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E99B69B283CE055EE33885911A00B95D /* UPTBlinkingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC250522126553F1D880BECA9A4ED45 /* Build configuration list for PBXNativeTarget "UPTBlinkingLabel" */;
+			buildPhases = (
+				9A8DDEBEF434EB4990D0146A7C564506 /* Sources */,
+				24ADD19497BE447487FD67AF99D7698C /* Frameworks */,
+				CF15D0AD9B8F560B010A35991468B7E6 /* Resources */,
+				B3C9055D546C6B2A30F61FCAFEEA439F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D07EA8EBAD1A428C2D4DE5B27E66696C /* PBXTargetDependency */,
+			);
+			name = UPTBlinkingLabel;
+			productName = UPTBlinkingLabel;
+			productReference = 3DAD627FBD1272A48841C335D2C6D461 /* UPTBlinkingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 79CAEFF059D2F6428F6F2D7162600FF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D5CDEB9404F976DE8074F365F8C3E88 /* Pods-UPTBlinkingLabel_Example */,
+				9EB30154E0A996023C3994D0958B0795 /* Pods-UPTBlinkingLabel_Tests */,
+				E99B69B283CE055EE33885911A00B95D /* UPTBlinkingLabel */,
+				20683DA22222E39F6624091CAE845B35 /* UPTBlinkingLabel-UPTBlinkingLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		875D161BC2F691BEF7FFD3F815E63531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF15D0AD9B8F560B010A35991468B7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFD49BFF435F8921CCE83B17BA77E2E /* UPTBlinkingLabel.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09DEFDB99956DDA48A96EB80A24FF250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE6CD58A299D328B40D86D32ED50742 /* Pods-UPTBlinkingLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2764193BF6EC55AEAD380B2C11AFE5A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377D43F62C71E4044F9759C98FF24B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4A4E9FFA7AE29312C74251CE78C8F3 /* Pods-UPTBlinkingLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8DDEBEF434EB4990D0146A7C564506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378F60A6DC0FE837535EA58CFE1F3A85 /* ReplaceMe.swift in Sources */,
+				C3960B7E418D321609F895172445D018 /* UPTBlinkingLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EB976DB51FA0A8F8B05A032A61DE750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UPTBlinkingLabel;
+			target = E99B69B283CE055EE33885911A00B95D /* UPTBlinkingLabel */;
+			targetProxy = B27DC7E73354A33F818F5D93531110DE /* PBXContainerItemProxy */;
+		};
+		A1A41D83979BEEC22DDFF1BA9C54BE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UPTBlinkingLabel;
+			target = E99B69B283CE055EE33885911A00B95D /* UPTBlinkingLabel */;
+			targetProxy = 825B82A6DC92755365687EC0D344BDB8 /* PBXContainerItemProxy */;
+		};
+		D07EA8EBAD1A428C2D4DE5B27E66696C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UPTBlinkingLabel-UPTBlinkingLabel";
+			target = 20683DA22222E39F6624091CAE845B35 /* UPTBlinkingLabel-UPTBlinkingLabel */;
+			targetProxy = 6FC01FF2E10BCA6AD2AB7D49599C9B04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E2B3F6F3B49FDA29A586986C19BBBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F85736D101F8511E7F8E907579C3F0 /* UPTBlinkingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UPTBlinkingLabel/UPTBlinkingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPTBlinkingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UPTBlinkingLabel/UPTBlinkingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UPTBlinkingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5235CC7A95736651D4B88D6DD7648F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F85736D101F8511E7F8E907579C3F0 /* UPTBlinkingLabel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = UPTBlinkingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		52E998A218654993F85A8A230C8339B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99BCE4BA974E7A7894DDA1E9CBBE76E /* Pods-UPTBlinkingLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UPTBlinkingLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UPTBlinkingLabel_Example/Pods-UPTBlinkingLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UPTBlinkingLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53D05CD908BE87D52998C7B7FEF8F2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44ADE0B232C5E41D5AC733A479D2425 /* Pods-UPTBlinkingLabel_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UPTBlinkingLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UPTBlinkingLabel_Example/Pods-UPTBlinkingLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UPTBlinkingLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		89FA0D16550A8003A4699C7A8C5FCBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE2AC80CC32737778B9D17F43B19F15 /* Pods-UPTBlinkingLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UPTBlinkingLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UPTBlinkingLabel_Tests/Pods-UPTBlinkingLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UPTBlinkingLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2E77D3FB07B45665EFC45DF096C4494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B55BA1EA01D6F861E27CFD42FFE326 /* Pods-UPTBlinkingLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UPTBlinkingLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UPTBlinkingLabel_Tests/Pods-UPTBlinkingLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UPTBlinkingLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD7D5D01AB8B9F36B5BB492690D6A89C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F85736D101F8511E7F8E907579C3F0 /* UPTBlinkingLabel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = UPTBlinkingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EB72CB7BB17E1CCC84D04ABCDB3DECC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F85736D101F8511E7F8E907579C3F0 /* UPTBlinkingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UPTBlinkingLabel/UPTBlinkingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPTBlinkingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UPTBlinkingLabel/UPTBlinkingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UPTBlinkingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496FDCE1F8E3F992CABFCB2F6DB07F22 /* Build configuration list for PBXNativeTarget "UPTBlinkingLabel-UPTBlinkingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5235CC7A95736651D4B88D6DD7648F49 /* Debug */,
+				DD7D5D01AB8B9F36B5BB492690D6A89C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC250522126553F1D880BECA9A4ED45 /* Build configuration list for PBXNativeTarget "UPTBlinkingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB72CB7BB17E1CCC84D04ABCDB3DECC6 /* Debug */,
+				2E2B3F6F3B49FDA29A586986C19BBBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83DCB7DA31DC4951C9F01700B9AD166 /* Build configuration list for PBXNativeTarget "Pods-UPTBlinkingLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E998A218654993F85A8A230C8339B3 /* Debug */,
+				53D05CD908BE87D52998C7B7FEF8F2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11E562955225F0F5F81767A8D845F58 /* Build configuration list for PBXNativeTarget "Pods-UPTBlinkingLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FA0D16550A8003A4699C7A8C5FCBE9 /* Debug */,
+				D2E77D3FB07B45665EFC45DF096C4494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
