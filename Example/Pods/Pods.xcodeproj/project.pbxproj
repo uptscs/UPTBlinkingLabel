@@ -12,6 +12,12 @@
 		61B0B1624720DFD6B86D632FE87E012F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		6AE6CD58A299D328B40D86D32ED50742 /* Pods-UPTBlinkingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A51FF0DF92ECED04A4F9D72733CE06 /* Pods-UPTBlinkingLabel_Example-dummy.m */; };
 		6CCA2DBD3A3871057995E8F62E1652E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		71571DBA1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71571DB91BE23DB300E9AB47 /* libTestFramework.a */; settings = {ASSET_TAGS = (); }; };
+		71571DBB1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71571DB91BE23DB300E9AB47 /* libTestFramework.a */; settings = {ASSET_TAGS = (); }; };
+		71571DBC1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71571DB91BE23DB300E9AB47 /* libTestFramework.a */; settings = {ASSET_TAGS = (); }; };
+		71571DBD1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71571DB91BE23DB300E9AB47 /* libTestFramework.a */; settings = {ASSET_TAGS = (); }; };
+		71571DBF1BE23DDC00E9AB47 /* include in Resources */ = {isa = PBXBuildFile; fileRef = 71571DBE1BE23DDC00E9AB47 /* include */; settings = {ASSET_TAGS = (); }; };
+		71571DC01BE23DDC00E9AB47 /* include in Resources */ = {isa = PBXBuildFile; fileRef = 71571DBE1BE23DDC00E9AB47 /* include */; settings = {ASSET_TAGS = (); }; };
 		7A4A4E9FFA7AE29312C74251CE78C8F3 /* Pods-UPTBlinkingLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88632C3E9DF51D082257454A0D5203B1 /* Pods-UPTBlinkingLabel_Tests-dummy.m */; };
 		7C9216F876309B0963EE2FF597A5A119 /* UPTBlinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2746DDBD53E17E9D37D776CBFECC51E1 /* UPTBlinkingLabel-dummy.m */; };
 		7F7A12684B172B88197D603ECF1E7AF5 /* Pods-UPTBlinkingLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8DF68A6DF97FEDEDFB013CCDAD89B7 /* Pods-UPTBlinkingLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,6 +71,8 @@
 		64B8F1FAB6B38EA78F923EAC1E2ECC35 /* Pods-UPTBlinkingLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPTBlinkingLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		64F68D51639020BE7017E261E4A03DB5 /* Pods-UPTBlinkingLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPTBlinkingLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		65A51FF0DF92ECED04A4F9D72733CE06 /* Pods-UPTBlinkingLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPTBlinkingLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		71571DB91BE23DB300E9AB47 /* libTestFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFramework.a; sourceTree = "<group>"; };
+		71571DBE1BE23DDC00E9AB47 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
 		7738706E1053985A16317178C25DFC0A /* Pods-UPTBlinkingLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UPTBlinkingLabel_Example.modulemap"; sourceTree = "<group>"; };
 		86B55BA1EA01D6F861E27CFD42FFE326 /* Pods-UPTBlinkingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPTBlinkingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		88632C3E9DF51D082257454A0D5203B1 /* Pods-UPTBlinkingLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPTBlinkingLabel_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -85,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71571DBA1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */,
 				6CCA2DBD3A3871057995E8F62E1652E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71571DBC1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */,
 				61B0B1624720DFD6B86D632FE87E012F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71571DBB1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */,
 				935D58494B30ACE836E78CD8A55F7BCA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71571DBD1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +138,7 @@
 		5375AB6FB582EE768B2CD68C65DA3359 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				71571DBE1BE23DDC00E9AB47 /* include */,
 				CC2EA1EDA894D8FCE2DDE30C94906AFE /* Classes */,
 			);
 			path = Pod;
@@ -164,6 +177,7 @@
 		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				71571DB91BE23DB300E9AB47 /* libTestFramework.a */,
 				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
 			name = iOS;
@@ -382,6 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71571DC01BE23DDC00E9AB47 /* include in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEFD49BFF435F8921CCE83B17BA77E2E /* UPTBlinkingLabel.bundle in Resources */,
+				71571DBF1BE23DDC00E9AB47 /* include in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +518,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				MODULEMAP_FILE = "Target Support Files/UPTBlinkingLabel/UPTBlinkingLabel.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = UPTBlinkingLabel;
@@ -518,6 +538,10 @@
 			baseConfigurationReference = E0F85736D101F8511E7F8E907579C3F0 /* UPTBlinkingLabel.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = UPTBlinkingLabel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -540,6 +564,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-UPTBlinkingLabel_Example/Pods-UPTBlinkingLabel_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -571,6 +599,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-UPTBlinkingLabel_Example/Pods-UPTBlinkingLabel_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -640,6 +672,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-UPTBlinkingLabel_Tests/Pods-UPTBlinkingLabel_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -671,6 +707,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-UPTBlinkingLabel_Tests/Pods-UPTBlinkingLabel_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -691,6 +731,10 @@
 			baseConfigurationReference = E0F85736D101F8511E7F8E907579C3F0 /* UPTBlinkingLabel.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = UPTBlinkingLabel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -714,6 +758,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				MODULEMAP_FILE = "Target Support Files/UPTBlinkingLabel/UPTBlinkingLabel.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = UPTBlinkingLabel;
