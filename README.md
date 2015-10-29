@@ -22,7 +22,7 @@ pod "BlinkingLabel"
 
 ## Author
 
-upendra.tripathi, upendra.tripathi@oracle.com
+upendra.tripathi, uptscs@gmail.com
 
 ## License
 
