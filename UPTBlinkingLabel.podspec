@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "UPTBlinkingLabel"
-  s.version          = "0.1.1"
+  s.version          = "0.1.3"
   s.summary = "A subclass on UILabel that provides a blink."
   s.description = "This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking."
   s.homepage= "https://github.com/uptscs/UPTBlinkingLabel"
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'UPTBlinkingLabel' => ['Pod/Assets/*.png']
   }
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/include/**/*.h'
   s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 2.3'
 
