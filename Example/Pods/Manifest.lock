@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UPTBlinkingLabel: 368c4c3f503865eea09dd5209f0709bc3285a6b0
+  UPTBlinkingLabel: 545b846d9baf69adbb16f15accb1b9fc9b190214
 
 COCOAPODS: 0.39.0

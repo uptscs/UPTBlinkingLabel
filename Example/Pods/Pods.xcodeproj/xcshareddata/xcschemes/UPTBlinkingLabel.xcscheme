@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '095C01B6031AE91F72CE0898'
+               BlueprintIdentifier = 'C64A86583703BC8F25384870'
                BlueprintName = 'UPTBlinkingLabel'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'UPTBlinkingLabel.framework'>
