@@ -14,10 +14,9 @@
 		6CCA2DBD3A3871057995E8F62E1652E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		713727271BE2499C00205D46 /* Framework in Resources */ = {isa = PBXBuildFile; fileRef = 713727251BE2499C00205D46 /* Framework */; settings = {ASSET_TAGS = (); }; };
 		713727281BE2499C00205D46 /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = 713727261BE2499C00205D46 /* Headers */; settings = {ASSET_TAGS = (); }; };
-		71571DBA1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71571DB91BE23DB300E9AB47 /* libTestFramework.a */; settings = {ASSET_TAGS = (); }; };
-		71571DBB1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71571DB91BE23DB300E9AB47 /* libTestFramework.a */; settings = {ASSET_TAGS = (); }; };
-		71571DBC1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71571DB91BE23DB300E9AB47 /* libTestFramework.a */; settings = {ASSET_TAGS = (); }; };
-		71571DBD1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71571DB91BE23DB300E9AB47 /* libTestFramework.a */; settings = {ASSET_TAGS = (); }; };
+		7137272A1BE24C1500205D46 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 713727291BE24C1500205D46 /* TestFramework.h */; settings = {ASSET_TAGS = (); }; };
+		7137272B1BE24C1500205D46 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 713727291BE24C1500205D46 /* TestFramework.h */; settings = {ASSET_TAGS = (); }; };
+		7137272C1BE24C1500205D46 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 713727291BE24C1500205D46 /* TestFramework.h */; settings = {ASSET_TAGS = (); }; };
 		7A4A4E9FFA7AE29312C74251CE78C8F3 /* Pods-UPTBlinkingLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88632C3E9DF51D082257454A0D5203B1 /* Pods-UPTBlinkingLabel_Tests-dummy.m */; };
 		7C9216F876309B0963EE2FF597A5A119 /* UPTBlinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2746DDBD53E17E9D37D776CBFECC51E1 /* UPTBlinkingLabel-dummy.m */; };
 		7F7A12684B172B88197D603ECF1E7AF5 /* Pods-UPTBlinkingLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8DF68A6DF97FEDEDFB013CCDAD89B7 /* Pods-UPTBlinkingLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -73,7 +72,7 @@
 		65A51FF0DF92ECED04A4F9D72733CE06 /* Pods-UPTBlinkingLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPTBlinkingLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		713727251BE2499C00205D46 /* Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Framework; sourceTree = "<group>"; };
 		713727261BE2499C00205D46 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Headers; sourceTree = "<group>"; };
-		71571DB91BE23DB300E9AB47 /* libTestFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFramework.a; path = ../../Example/Pods/libTestFramework.a; sourceTree = "<group>"; };
+		713727291BE24C1500205D46 /* TestFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		7738706E1053985A16317178C25DFC0A /* Pods-UPTBlinkingLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UPTBlinkingLabel_Example.modulemap"; sourceTree = "<group>"; };
 		86B55BA1EA01D6F861E27CFD42FFE326 /* Pods-UPTBlinkingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPTBlinkingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		88632C3E9DF51D082257454A0D5203B1 /* Pods-UPTBlinkingLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPTBlinkingLabel_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -94,7 +93,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71571DBA1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */,
 				6CCA2DBD3A3871057995E8F62E1652E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71571DBC1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */,
 				61B0B1624720DFD6B86D632FE87E012F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,7 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71571DBB1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */,
 				935D58494B30ACE836E78CD8A55F7BCA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,7 +117,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71571DBD1BE23DB300E9AB47 /* libTestFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +196,7 @@
 		CC2EA1EDA894D8FCE2DDE30C94906AFE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				71571DB91BE23DB300E9AB47 /* libTestFramework.a */,
+				713727291BE24C1500205D46 /* TestFramework.h */,
 				0E1833CF96D795F6191A9AD6EB6570CF /* BlinkingLabel.swift */,
 			);
 			path = Classes;
@@ -270,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D53DAFB455E3415FD7D334DA7C8DB73B /* Pods-UPTBlinkingLabel_Example-umbrella.h in Headers */,
+				7137272A1BE24C1500205D46 /* TestFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				398569B5E620DAB6766EA599848E1AFC /* UPTBlinkingLabel-umbrella.h in Headers */,
+				7137272C1BE24C1500205D46 /* TestFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F7A12684B172B88197D603ECF1E7AF5 /* Pods-UPTBlinkingLabel_Tests-umbrella.h in Headers */,
+				7137272B1BE24C1500205D46 /* TestFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
