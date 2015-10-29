@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     'UPTBlinkingLabel' => ['Pod/Assets/*.png']
   }
   s.public_header_files = 'Pod/**/*.h'
-  s.vendored_frameworks = 'libTestFramework.a'
+  s.vendored_frameworks = 'Pod/*.framework'
   s.frameworks = 'UIKit', 'MapKit'
 
 end
