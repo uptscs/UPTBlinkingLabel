@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.summary      = "A library to interact with the Push IO service"
   s.license      = "Commercial"
   s.authors      = "Push IO"
-  s.source       = { :git => "https://github.com/pushio/PushIOManager_iOS.git" }
+  s.source       = { :git => "https://github.com/pushio/PushIOManager_iOS.git", :tag => 'v2.13.1' }
   s.platform     = :ios, '6.0'
   s.requires_arc = false
   s.source_files = 'Pod/Classes/**/*'
