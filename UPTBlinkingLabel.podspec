@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "UPTBlinkingLabel"
-    s.version      = "0.1.5"
+    s.version      = "100.1.11"
     s.summary      = "A subclass on UILabel that provides a blink."
     s.homepage     = "http://push.io"
     s.summary      = "A library to interact with the Push IO service"
